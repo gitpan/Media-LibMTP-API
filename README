@@ -1,4 +1,4 @@
-Media-LibMTP-API version 0.01, released May 12, 2012
+Media-LibMTP-API version 0.02, released May 14, 2012
 
 
 You probably want to use Media-LibMTP instead of using this module
@@ -32,6 +32,8 @@ See https://rt.perl.org/rt3/Ticket/Display.html?id=112776 for details.
 
 DEPENDENCIES
 
+libmtp 1.1.0 or later
+
   Package   Minimum Version
   --------- ---------------
   perl       5.010
@@ -42,10 +44,10 @@ DEPENDENCIES
 
 
 CHANGES
-    Here's what's new in version 0.01 of Media-LibMTP-API:
+    Here's what's new in version 0.02 of Media-LibMTP-API:
     (See the file "Changes" for the full revision history.)
 
-	- Initial release
+	- Document that libmtp 1.1.0 or newer is required
 
 
 
