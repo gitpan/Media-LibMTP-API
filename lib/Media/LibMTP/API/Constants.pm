@@ -3,7 +3,7 @@
 
 package
     Media::LibMTP::API;
-# This file is part of Media-LibMTP-API 0.02 (May 14, 2012)
+# This file is part of Media-LibMTP-API 0.03 (July 4, 2012)
 
 # Copyright 2011 Christopher J. Madsen
 #

@@ -22,7 +22,7 @@ use strict;
 use warnings;
 
 our $VERSION = '0.01';
-# This file is part of Media-LibMTP-API 0.02 (May 14, 2012)
+# This file is part of Media-LibMTP-API 0.03 (July 4, 2012)
 
 use Exporter 5.57 'import';     # exported import method
 our @EXPORT_OK = qw(filetype filetype_from_path);
@@ -112,8 +112,8 @@ Media::LibMTP::API::Filetypes - Map extensions & MIME types to libmtp filetypes
 =head1 VERSION
 
 This document describes version 0.01 of
-Media::LibMTP::API::Filetypes, released May 14, 2012
-as part of Media-LibMTP-API version 0.02.
+Media::LibMTP::API::Filetypes, released July 4, 2012
+as part of Media-LibMTP-API version 0.03.
 
 =head1 SYNOPSIS
 
