@@ -1,4 +1,4 @@
-Media-LibMTP-API version 0.03, released July 4, 2012
+Media-LibMTP-API version 0.04, released May 31, 2014
 
 
 You probably want to use Media-LibMTP instead of using this module
@@ -36,7 +36,7 @@ libmtp 1.1.0 or later
 
   Package   Minimum Version
   --------- ---------------
-  perl       5.010
+  perl       5.10.0
   Carp       
   Exporter   5.57
   XSLoader
@@ -44,19 +44,18 @@ libmtp 1.1.0 or later
 
 
 CHANGES
-    Here's what's new in version 0.03 of Media-LibMTP-API:
+    Here's what's new in version 0.04 of Media-LibMTP-API:
     (See the file "Changes" for the full revision history.)
 
-	- Improve memory managment
-	  The new SubObject class automatically maintains the parent
-	  object until it's no longer needed.
-	- Add examples/delete-folder.pl
+	- Document the memory managment change made in 0.03
+	- Media type audio/mp4 now maps to LIBMTP_FILETYPE_M4A
+	  instead of LIBMTP_FILETYPE_MP4
 
 
 
 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Christopher J. Madsen.
+This software is copyright (c) 2014 by Christopher J. Madsen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

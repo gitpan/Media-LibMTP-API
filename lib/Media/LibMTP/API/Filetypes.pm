@@ -21,8 +21,8 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
-# This file is part of Media-LibMTP-API 0.03 (July 4, 2012)
+our $VERSION = '0.04';
+# This file is part of Media-LibMTP-API 0.04 (May 31, 2014)
 
 use Exporter 5.57 'import';     # exported import method
 our @EXPORT_OK = qw(filetype filetype_from_path);
@@ -42,7 +42,7 @@ our %typemap = (
   _f(LIBMTP_FILETYPE_WMA,        qw(wma audio/x-ms-wma)),
   _f(LIBMTP_FILETYPE_OGG,        qw(ogg oga audio/ogg audio/vorbis)),
   _f(LIBMTP_FILETYPE_AUDIBLE,    qw(aa)),
-  _f(LIBMTP_FILETYPE_MP4,        qw(mp4 m4v audio/mp4 video/mp4)),
+  _f(LIBMTP_FILETYPE_MP4,        qw(mp4 m4v video/mp4)),
   _f(LIBMTP_FILETYPE_WMV,        qw(wmv video/x-ms-wmv)),
   _f(LIBMTP_FILETYPE_AVI,        qw(avi)),
   _f(LIBMTP_FILETYPE_MPEG,       qw(mpg mpeg video/mpeg)),
@@ -68,7 +68,7 @@ our %typemap = (
   _f(LIBMTP_FILETYPE_MEDIACARD,  qw()),
   _f(LIBMTP_FILETYPE_FLAC,       qw(flac fla audio/flac)),
   _f(LIBMTP_FILETYPE_MP2,        qw(mp2)),
-  _f(LIBMTP_FILETYPE_M4A,        qw(m4a)),
+  _f(LIBMTP_FILETYPE_M4A,        qw(m4a audio/mp4)),
   _f(LIBMTP_FILETYPE_DOC,        qw(doc application/msword)),
   _f(LIBMTP_FILETYPE_XML,        qw(xml text/xml)),
   _f(LIBMTP_FILETYPE_XLS,        qw(xls application/vnd.ms-excel)),
@@ -111,9 +111,9 @@ Media::LibMTP::API::Filetypes - Map extensions & MIME types to libmtp filetypes
 
 =head1 VERSION
 
-This document describes version 0.01 of
-Media::LibMTP::API::Filetypes, released July 4, 2012
-as part of Media-LibMTP-API version 0.03.
+This document describes version 0.04 of
+Media::LibMTP::API::Filetypes, released May 31, 2014
+as part of Media-LibMTP-API version 0.04.
 
 =head1 SYNOPSIS
 
@@ -175,11 +175,11 @@ or through the web interface at
 L<< http://rt.cpan.org/Public/Bug/Report.html?Queue=Media-LibMTP-API >>.
 
 You can follow or contribute to Media-LibMTP-API's development at
-L<< http://github.com/madsen/media-libmtp-api >>.
+L<< https://github.com/madsen/media-libmtp-api >>.
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Christopher J. Madsen.
+This software is copyright (c) 2014 by Christopher J. Madsen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
